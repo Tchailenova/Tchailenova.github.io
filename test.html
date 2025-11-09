@@ -1,7 +1,12 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-   
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Test Page | Tchailenova's Cozy Cafe</title>
+    <!--<link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">--> <!-- for testing purposes, this line has been replaced with CSS in the <style> section. -->
+    <link href="/images/violetYY.ico" rel="shortcut icon" type="image/x-icon">
+<style>
 /* Theme:
 Yale Blue elements have Midnight Green shadows.
 Mauve elements have Finn shadows.
@@ -36,11 +41,6 @@ h5 {
 h6 {
   text-shadow: 5px 5px 10px #683068; /* Finn */
 }
-
-/* in order to correct the shadow on headered links, you need to add this to the <a href> tag.
- style="text-shadow: 5px 5px 10px #075153;"
-*/
-
 
 /* rounded bubble border with distant shadow */
 .headerbox {
@@ -116,7 +116,6 @@ h6 {
 }
 
 /* body BGC rectangle fixed at the bottom of the page */
-/* best to be used */
 .footerbox {
   position: fixed;
   left: 0;
@@ -168,3 +167,68 @@ a:active {
     color: #509767; /*Lighter Sea Green*/
     text-decoration: italic;
 }
+</style>
+  </head>
+  
+  <body>
+<div class="headerbox">
+<h2>CSS Example Page</h2>
+<p>This page contains example text of all/most custom CSS classes contained in the stylesheet</p>
+</div>
+
+<h1>test body text, header 1</h1>
+<h2>test body text, header 2</h2>
+<h3>test body text, header 3</h3>
+<h4>test body text, header 4</h4>
+<h5>test body text, header 5</h5>
+<h6>test body text, header 6</h6>
+
+<div class="divider">
+      <p>this is some divider text</p>
+    </div>
+    
+    <p>the following is a divider without text</p>
+<div class="divider"></div>
+<br><br>
+
+<div class="divider">
+  ⚞○⚟
+</div>
+<br><br>
+
+<div class="divider">
+  ⚞❃⚟
+</div>
+<br><br>
+
+<div class="divider">
+  ♥ ⚞✾⚟ ♥
+</div>
+<br><br>
+
+<div class="bodybubble">
+	<p>this is some bodybubble test text</p>
+</div>
+
+<br>
+<hr class="dashed">
+<br>
+<hr class="dotted">
+<br>
+<hr class="solid">
+<br>
+<hr class="rounded">
+
+<p>Here are some links to see the different colors:
+<br><a href="https://www.youtube.com/@vidiot5533">vidiot5533</a>'s comment on 
+<br><a href="https://www.youtube.com/watch?v=OahFIVYCpds&list=PLhU3dB8ByRLAqRI_OwhIVxK0K4prwsPD6&index=51">Tango's Hermitcraft VOD</a>
+<br><a href="https://bingobaker.com/view/9633154">Tango Tek HC9 Streams</a>, a bingo card by me</p>
+
+<br><br><br>
+
+<div class="footerbox">
+  <p>All cards made with the online tool <a href="https://bingobaker.com">Bingo Baker</a>.</p>
+</div>
+
+</body>
+</html> 
